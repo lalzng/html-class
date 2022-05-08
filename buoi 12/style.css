@@ -1,0 +1,21 @@
+/* Ap dung cho toan bo p */
+p {
+  background-color: aquamarine;
+}
+/* Cac the p la con nam trong div */
+div p {
+  color: red;
+}
+div div p {
+  font-weight: bold;
+}
+/* Ap dung cho p la div cua body */
+body > p {
+  font-size: 36px;
+}
+div + p {
+  text-decoration: underline;
+}
+div ~ p {
+  font-style: italic;
+}
